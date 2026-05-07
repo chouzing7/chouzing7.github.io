@@ -1285,7 +1285,7 @@
 
     // 悬浮标签
     const tags = document.querySelectorAll('.tag-chip');
-    const zhTags = ['🧠 人工智能产品','🍀 斜杠青年','📊 需求洞察','✨ 编程能力'];
+    const zhTags = ['🧠 人工智能产品','🍀 不止于此','📊 需求洞察','✨ 编程能力'];
     const enTags = ['🧠 AI Products','🍀 Polymath','📊 Demand Insights','✨ Coding Skills'];
     tags.forEach((t, i) => { t.querySelector('span:last-child') || (t.innerHTML = ''); t.innerHTML = `<span>${(lang === 'en' ? enTags : zhTags)[i]}</span>`; t.querySelector('span').style.marginRight = '6px'; });
 
