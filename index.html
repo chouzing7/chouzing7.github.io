@@ -959,7 +959,7 @@
 
   <div class="hero-tags">
     <div class="tag-chip tag-ai-product"><span>🧠</span> 人工智能产品</div>
-    <div class="tag-chip tag-polymath"><span>🍀</span> 斜杠青年</div>
+    <div class="tag-chip tag-polymath"><span>🍀</span> 不止于此</div>
     <div class="tag-chip tag-data"><span>📊</span> 需求洞察</div>
     <div class="tag-chip tag-vibe"><span>✨</span> 编程能力</div>
   </div>
@@ -1286,7 +1286,7 @@
     // 悬浮标签
     const tags = document.querySelectorAll('.tag-chip');
     const zhTags = ['🧠 人工智能产品','🍀 不止于此','📊 需求洞察','✨ 编程能力'];
-    const enTags = ['🧠 AI Products','🍀 Polymath','📊 Demand Insights','✨ Coding Skills'];
+    const enTags = ['🧠 AI Products','🍀 More Than This','📊 Demand Insights','✨ Coding Skills'];
     tags.forEach((t, i) => { t.querySelector('span:last-child') || (t.innerHTML = ''); t.innerHTML = `<span>${(lang === 'en' ? enTags : zhTags)[i]}</span>`; t.querySelector('span').style.marginRight = '6px'; });
 
     // 实践者
